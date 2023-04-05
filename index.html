@@ -11,47 +11,61 @@
     <div class="container">
 
         <div class="logo">
-            <img src="" alt="">
+            <img src="./static/amazing.png" alt="">
         </div>
 
         <main>
             <h1>Sign In</h1>
             <form action="">
-                <label for=""></label><input type="text" name="" id="">
-                <label for=""></label><input type="text" name="" id="">
-                <button>Continue</button>
+                <div class="form-box form-user">
+                    <label class="form-label" for="txt_user">Email (Phone or Mobile Accounts)</label>
+                    <input class="form-txt" type="text" placeholder="Enter Email" id="txt_user">
+                </div>
+                <div class="form-box">
+                    <div class="form-pass">
+                        <label class="form-label" for="txt_pass">Password</label>
+                        <a class="form-label" href="#">Forgot Password?</a>
+                    </div>
+                    <input class="form-txt" type="text" placeholder="Enter Password" id="txt_pass" type="password">
+                </div>
+                <div class="form-box">
+                    <button class="form-txt form-continue">Continue</button>
+                </div>
+                
             </form>
             <ul>
-                <li>Need Help?</li>
+                <li>
+                    <a class="form-label"
+                     href="#">Need Help?</a></li>
             </ul>
         </main>
 
         <aside class="create">
-            <h3>New To Amazon?</h3>
-            <button>Create Your Amazon Account</button>
+            <h3><span>New To Amazing?</span></h3>
+            <button class="btn-create">Create Your Amazing Account</button>
         </aside>
 
         <hr>
 
         <footer>
-            <ul>
-                <li>
+            <ul class="footer-ul">
+                <li class="footer-li">
                     <a href="#" alt="">
                         Conditions of use
                     </a>
                 </li>
-                <li>
+                <li class="footer-li">
                     <a href="#" alt="">
                         Privacy Policy
                     </a>
                 </li>
-                <li>
+                <li class="footer-li">
                     <a href="#" alt="">
                         Help
                     </a>
                 </li>
             </ul>
-            <p>(c) 1996-2023, Amazon.com, Inc. or its affiliates</p>
+            <p>&copy; 1996-2023, Amazing.com, Inc. or its affiliates</p>
         </footer>
 
     </div>

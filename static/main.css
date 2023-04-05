@@ -12,13 +12,124 @@ h1 {
     font-weight: 100;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.logo > img {
+    width: 100%;
+}
+
 .container {
-    
+    min-height: 450px;
+    height: 100vh;
+    /* Set Viewport Height to 100vh to set height*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* Flex Y-Axis Direction */
+    align-items: center; 
+    /* Align Items from Side to Center */
+    justify-content: center;
+    /* Justify Content from Top to Center */
 }
 
 main {
+    width: 400px;
     border: 1px solid lightgray;
-    width: 500px;
+    border-radius: 4px;
+    padding: 0 30px;
     display: flex;
     flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box {
+    display: block;
+    margin: 10px 0;
+}
+
+.form-pass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-label {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.form-txt {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    margin-top: 6px;
+}
+
+.form-continue {
+    background-color: #ff9900;
+    border: 1px solid gray;
+}
+
+aside {
+    width: 400px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.5px;
+    margin: 20px 0 20px; 
+ } 
+ 
+ h3 span { 
+     background:#fff; 
+     padding: 0 5px; 
+     font-size: 13px;
+     font-weight: lighter;
+     color: gray;
+ }
+
+ .btn-create {
+    padding: 4px;
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+
+footer {
+    font-size: 12px;
+}
+
+.footer-ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-li {
+    display: block;
+    padding: 10px;
+}
+
+hr {
+    margin: 25px 0 15px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
 }
